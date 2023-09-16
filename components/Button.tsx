@@ -1,12 +1,13 @@
 import { ReactNode } from 'react';
 
 interface Props {
-    children?: ReactNode;
+    children: ReactNode;
     variant: 'primary' | 'secondary';
+    // rounded: '5px' | 'rounded';
 }
 
 const Button: React.FC<Props> = ({ children, variant }) => {
-    const className = "px-[35px] py-[12px] w-fit rounded-[5px] text-base md:text-lg leading-[30px]"
+    const className = "px-[35px] py-[10px] md:py-[12px] w-fit rounded-full text-base md:text-lg leading-[30px]"
     const variants = {
         "primary": <div className={`bg-primary text-white ${className}`}>
             {children}
@@ -18,5 +19,8 @@ const Button: React.FC<Props> = ({ children, variant }) => {
 
     return variants[variant]
 };
+// Button.defaultProps = {
+//     rounded: 'rounded',
+// };
 
 export default Button;
