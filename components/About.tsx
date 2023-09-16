@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import Icons from './Icons'
+import Image from 'next/image'
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
                 <div className="flex flex-col xl:flex-row gap-x-[76px] items-center xl:items-start xl:h-[470px]">
                     <h2 className='xl:hidden section-title text-center mb-6'>About-me</h2>
                     <div className='flex-1 xl:h-full'>
-                        <img src="/about.jpg" alt="about image" className='h-[410px]  md:h-[520px] xl:h-full w-screen xl:w-full object-cover' />
+                        <Image src="/about.jpg" alt="about image" className='h-[410px]  md:h-[520px] xl:h-full w-screen xl:w-full object-cover' />
                     </div>
                     <div className='flex-1  h-full flex flex-col md:items-start max-xl:items-center justify-between max-xl:gap-4   '>
                         <div>
