@@ -8,16 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-    colors: {
-      "primary": "#9526DA",
-      "dark": "#10001A",
-      "light" : "#D2A1F0",
-      "neutral":"#7D7980",
-    }, 
-    fontFamily: {
-      "secular":['"Secular One"', 'sans-serif'],
-      "advent":['"Advent Pro"', 'sans-serif']
-    }
+      colors: {
+        "primary": "#9526DA",
+        "dark": "#10001A",
+        "light": "#D2A1F0",
+        "neutral": "#7D7980",
+      },
+      fontFamily: {
+        "secular": ['"Secular One"', 'sans-serif'],
+        "advent": ['"Advent Pro"', 'sans-serif']
+      }
     },
   },
   plugins: [],
