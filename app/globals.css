@@ -13,7 +13,7 @@
     @apply text-2xl  md:text-[40px] text-dark;
   }
   .body-text {
-    @apply text-base md:text-lg text-dark/70; 
+    @apply text-base md:text-lg text-dark/[.65]; 
   }
 }
 

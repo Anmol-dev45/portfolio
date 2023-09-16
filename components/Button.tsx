@@ -7,7 +7,7 @@ interface Props {
 }
 
 const Button: React.FC<Props> = ({ children, variant }) => {
-    const className = "block px-[35px] py-[10px] md:py-[12px] w-fit rounded-full text-base md:text-lg leading-[30px]"
+    const className = "block px-6 py-2 md:py-[12px] w-fit rounded-full text-base md:text-lg"
     const variants = {
         "primary": <div className={`bg-primary text-white ${className}`}>
             {children}
